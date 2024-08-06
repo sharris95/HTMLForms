@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Web Form</title>
+</head>
+<body>
+    <header>
+        <h1>Comprehensive Web Form</h1>
+        <p>This form includes various selection features and accessibility enhancements.</p>
+    </header>
+
+    <main>
+        <form>
+            <!-- Select Menu for Programming Language -->
+            <section>
+                <h2>Select Your Favorite Programming Language</h2>
+                <label for="language">Programming Language:</label>
+                <select id="language" name="language">
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="java">Java</option>
+                    <option value="csharp">C#</option>
+                </select>
+            </section>
+
+            <!-- Radio Buttons for Expertise Level -->
+            <section>
+                <h2>Expertise Level</h2>
+                <fieldset>
+                    <legend>Choose your expertise level:</legend>
+                    <label for="beginner">
+                        <input type="radio" id="beginner" name="expertise" value="beginner"> Beginner
+                    </label>
+                    <label for="intermediate">
+                        <input type="radio" id="intermediate" name="expertise" value="intermediate"> Intermediate
+                    </label>
+                    <label for="advanced">
+                        <input type="radio" id="advanced" name="expertise" value="advanced"> Advanced
+                    </label>
+                </fieldset>
+            </section>
+
+            <!-- Checkboxes for Development Platforms -->
+            <section>
+                <h2>Preferred Development Platforms</h2>
+                <fieldset>
+                    <legend>Select your preferred platforms:</legend>
+                    <label for="web">
+                        <input type="checkbox" id="web" name="platform" value="web"> Web
+                    </label>
+                    <label for="mobile">
+                        <input type="checkbox" id="mobile" name="platform" value="mobile"> Mobile
+                    </label>
+                    <label for="desktop">
+                        <input type="checkbox" id="desktop" name="platform" value="desktop"> Desktop
+                    </label>
+                </fieldset>
+            </section>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Comprehensive Web Form. All rights reserved.</p>
+    </footer>
+</body>
+</html>
